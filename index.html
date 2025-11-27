@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медиакит - Продвижение Ивентов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-inner container">
+            <div class="hero-content">
+                <!-- <div class="hero-badge">Сообщество 🐻 in NYC/NJ</div> -->
+                <h1>🐻 Медиакит для продвижения ивентов</h1>
+                <p class="hero-description">Гибкие варианты для продвижения ваших мероприятий среди активной аудитории</p>
+                <div class="hero-actions">
+                    <a href="#calculator" class="cta-button">Рассчитать стоимость</a>
+                    <span class="hero-note">Подбираем пакет под ваш формат: от единичного поста до регулярных интеграций</span>
+                </div>
+            </div>
+            <div class="hero-reach-card">
+                <div class="reach-badge">Охваты нашего сообщества</div>
+                <div class="reach-grid hero-reach-grid">
+                    <div class="reach-item">
+                        <div class="reach-icon">💬</div>
+                        <div class="reach-label">Telegram-чаты</div>
+                        <div class="reach-value">>10,000</div>
+                    </div>
+                    <div class="reach-item">
+                        <div class="reach-icon">📢</div>
+                        <div class="reach-label">Telegram-канал</div>
+                        <div class="reach-value">>2,500</div>
+                    </div>
+                    <div class="reach-item">
+                        <div class="reach-icon">✉️</div>
+                        <div class="reach-label">Email-рассылка</div>
+                        <div class="reach-value">>1,500</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <section class="calculator" id="calculator">
+            <h2>Калькулятор стоимости</h2>
+
+            <div class="calculator-content">
+                <div class="packages">
+                    <p class="section-description">Для 3-х и более мест размещения скидка 25%</p>
+                    <div class="chat-grid chat-list">
+                        <div class="chat-group">
+                            <div class="chat-group-title">Email-рассылка</div>
+                            <div class="chat-row no-link">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="80" data-name="Email-рассылка">
+                                    <div class="chat-card featured">
+                                        <span class="chat-emoji">✉️</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Email-рассылка</span>
+                                            <span class="chat-note">>1,500 подписчиков</span>
+                                        </div>
+                                        <span class="chat-price">$80</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="chat-group">
+                            <div class="chat-group-title">Каналы</div>
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" id="channelCheckbox" name="channel-master" value="100" data-name="in NYC" data-url="https://t.me/+ki5lDjY0buAzMjcy" data-base="100">
+                                    <div class="chat-card featured">
+                                        <span class="chat-emoji">🐻</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">in NYC</span>
+                                            <span class="chat-note">Ключевые мероприятия в Нью-Йорке, еженедельные подборки без спама. Автоматический кросспост в Culture 🐻 in NYC при отдельном посте (бесплатно).</span>
+                                        </div>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+ki5lDjY0buAzMjcy" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="channel-options">
+                                <div class="channel-option-row">
+                                    <label>
+                                        <input type="checkbox" id="channelOptionNewsletter" name="channel-option" value="50">
+                                        <span>Еженедельная подборка</span>
+                                        <span class="channel-option-price">$50</span>
+                                    </label>
+                                    <a class="chat-link" href="https://t.me/bears_nyc/261" target="_blank" rel="noopener noreferrer">Пример</a>
+                                </div>
+                                <div class="channel-option-row">
+                                    <label>
+                                        <input type="checkbox" id="channelOptionPost" name="channel-option" value="150">
+                                        <span>Отдельный пост</span>
+                                        <span class="channel-option-price">$150</span>
+                                    </label>
+                                    <a class="chat-link" href="https://t.me/bears_nyc/253" target="_blank" rel="noopener noreferrer">Пример</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="chat-group">
+                            <div class="chat-group-title">Чаты</div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" id="cultureChatCheckbox" name="chat" value="80" data-name="Culture 🐻 in NYC" data-url="https://t.me/+-v3h076Zem0yOWI6">
+                                    <div class="chat-card featured">
+                                        <span class="chat-emoji">🖼</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Culture 🐻 in NYC</span>
+                                            <span class="chat-note">Культура, совместные походы на лекции, концерты и в музеи</span>
+                                        </div>
+                                        <span class="chat-price" id="cultureChatPrice">$80</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+-v3h076Zem0yOWI6" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="50" data-name="Parents 🐻 in NYC" data-url="https://t.me/+bm0XBRF9MScxMTFi">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">👶</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Parents 🐻 in NYC</span>
+                                            <span class="chat-note">Чат родителей</span>
+                                        </div>
+                                        <span class="chat-price">$50</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+bm0XBRF9MScxMTFi" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="50" data-name="Girls 🐻 in NYC" data-url="https://t.me/+d24mZTNEe6Q1NzYx">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">👧</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Girls 🐻 in NYC</span>
+                                            <span class="chat-note">Женская группа медведиц (female only)</span>
+                                        </div>
+                                        <span class="chat-price">$50</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+d24mZTNEe6Q1NzYx" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="50" data-name="Rental 🐻 in NYC" data-url="https://t.me/+hB9gH_GZvOJmMmQy">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🏠</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Rental 🐻 in NYC</span>
+                                            <span class="chat-note">Аренда/сдача жилья в НЙ</span>
+                                        </div>
+                                        <span class="chat-price">$50</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+hB9gH_GZvOJmMmQy" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="50" data-name="Entrepreneurs & Startups 🐻 in NYC" data-url="https://t.me/+jpbNsD56N_VmMzMy">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🚀</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Entrepreneurs & Startups 🐻 in NYC</span>
+                                            <span class="chat-note">Всё, что касается предпринимателей и стартапов</span>
+                                        </div>
+                                        <span class="chat-price">$50</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+jpbNsD56N_VmMzMy" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="50" data-name="Dogs & Cats 🐻 in NYC" data-url="https://t.me/+AJwWGvAsFBUyMzZi">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🐶</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Dogs & Cats 🐻 in NYC</span>
+                                            <span class="chat-note">Чат для владельцев собак и кошек</span>
+                                        </div>
+                                        <span class="chat-price">$50</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+AJwWGvAsFBUyMzZi" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="Барахолка 🐻" data-url="https://t.me/+ad9aMq5R0J4zYTdi">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🩲</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Барахолка 🐻</span>
+                                            <span class="chat-note">P2P куплю/продам/отдам</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+ad9aMq5R0J4zYTdi" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="Dating 🐻 in NYC" data-url="https://t.me/+wEq68YjSGds3M2My">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">❤️</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Dating 🐻 in NYC</span>
+                                            <span class="chat-note">Singles-активности, встречи каждые три недели</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+wEq68YjSGds3M2My" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="Hike 🐻 in NYC" data-url="https://t.me/+sTbuKR0GsuIwZDEy">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🥾</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Hike 🐻 in NYC</span>
+                                            <span class="chat-note">Хайки почти каждые выходные</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+sTbuKR0GsuIwZDEy" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="Surfing/Snowboarding 🐻 in NYC" data-url="https://t.me/+5SW-phuWNZ8yNmUy">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🏄‍♂️</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Surfing/Snowboarding 🐻 in NYC</span>
+                                            <span class="chat-note">Серфинг и экстремальное времяпрепровождение</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+5SW-phuWNZ8yNmUy" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="Tennis 🐻 in NYC" data-url="https://t.me/+nfHF6AYVcJ03M2M6">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🎾</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Tennis 🐻 in NYC</span>
+                                            <span class="chat-note">Теннис</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+nfHF6AYVcJ03M2M6" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="Volleyball 🐻 in NYC" data-url="https://t.me/+kRv9XvCIhTA4MjEy">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🏐</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Volleyball 🐻 in NYC</span>
+                                            <span class="chat-note">Волейбол</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+kRv9XvCIhTA4MjEy" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="Memes 🐻 in NYC" data-url="https://t.me/+Sb4h1jHBe5pjYTJi">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🤣</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Memes 🐻 in NYC</span>
+                                            <span class="chat-note">Мемы и флудилка</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+Sb4h1jHBe5pjYTJi" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="Bike 🐻 in NYC" data-url="https://t.me/+bg1oh8d7gtZhYzQy">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🚲</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Bike 🐻 in NYC</span>
+                                            <span class="chat-note">Катание на великах</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+bg1oh8d7gtZhYzQy" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="Books 🐻 in NYC" data-url="https://t.me/+KDW-8-nq-H1iODc6">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">📚</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Books 🐻 in NYC</span>
+                                            <span class="chat-note">Книжный клуб</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+KDW-8-nq-H1iODc6" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="Burning Man 🐻 in NYC" data-url="https://t.me/+-OF7vr0wuCUzYTcy">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🔥</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Burning Man 🐻 in NYC</span>
+                                            <span class="chat-note">Burning Man, принципы и философия</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+-OF7vr0wuCUzYTcy" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="Chess 🐻 in NYC" data-url="https://t.me/+B2b4yxbqbfo1Mzhi">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">♟️</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">Chess 🐻 in NYC</span>
+                                            <span class="chat-note">Шахматы</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+B2b4yxbqbfo1Mzhi" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+
+                            <div class="chat-row">
+                                <label class="chat-option">
+                                    <input type="checkbox" name="chat" value="30" data-name="US Anarchy 🐻" data-url="https://t.me/+GKe4mkwHYgRlODg6">
+                                    <div class="chat-card">
+                                        <span class="chat-emoji">🏴‍☠️</span>
+                                        <div class="chat-text">
+                                            <span class="chat-name">US Anarchy 🐻</span>
+                                            <span class="chat-note">Экспериментальный чат без правил</span>
+                                        </div>
+                                        <span class="chat-price">$30</span>
+                                    </div>
+                                </label>
+                                <a class="chat-link" href="https://t.me/+GKe4mkwHYgRlODg6" target="_blank" rel="noopener noreferrer">Ссылка</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="order-summary">
+                    <div class="summary-sticky">
+                        <h3>Ваш заказ</h3>
+                        <div id="selectedItems" class="selected-items">
+                            <p class="empty-message">Выберите пакет для расчёта стоимости</p>
+                        </div>
+                        <div class="total">
+                            <span>Итого:</span>
+                            <span class="total-price" id="totalPrice">$0</span>
+                        </div>
+                        <button class="order-button" id="orderButton" disabled>
+                            Оформить заказ
+                        </button>
+                        <p class="discount-note">
+                            <strong>Скидки:</strong><br>
+                            Регулярное размещение (от 3 раз) и частое сотрудничество обсуждается индивидуально.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="requirements">
+            <h2>Что необходимо от клиента</h2>
+            <div class="requirements-grid">
+                <div class="requirement-item">
+                    <span class="requirement-icon">🖼️</span>
+                    <span>Изображение (формат для поста)</span>
+                </div>
+                <div class="requirement-item">
+                    <span class="requirement-icon">📅</span>
+                    <span>Даты и время мероприятия</span>
+                </div>
+                <div class="requirement-item">
+                    <span class="requirement-icon">📝</span>
+                    <span>Название и описание мероприятия</span>
+                </div>
+                <div class="requirement-item">
+                    <span class="requirement-icon">📍</span>
+                    <span>Адрес проведения</span>
+                </div>
+                <div class="requirement-item">
+                    <span class="requirement-icon">🔗</span>
+                    <span>Ссылка на регистрацию</span>
+                </div>
+            </div>
+            <p class="requirements-note">Мы адаптируем всю информацию под наш формат перед публикацией.</p>
+        </section>
+
+        <footer>
+            <p>© 2019 - <span id="currentYear"></span> Culture NYC / Bears NYC. Все права защищены.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
